@@ -17,11 +17,6 @@ int minimaxDecision(int house[], int depthMAX);
 void maxValue(int house[], int depth, int depthMAX, int & Value_max, int & maxAction);
 void minValue(int house[], int depth, int depthMAX, int & Value_min, int & minAction);
 
-bool comp(pair<int, int>a, pair<int, int>b)
-{
-	return a.second < b.second;
-}
-
 int main()
 {
 	int cases;
